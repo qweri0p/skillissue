@@ -9,17 +9,17 @@ export function initialize() {
     innertitle.href = location.toString();
     innertitle.innerHTML = 'SkillIssue'
     title.append(innertitle);
-    title.setAttribute('id', 'header')
+    title.setAttribute('class', 'header')
     const langbtn = document.createElement('button')
-    langbtn.setAttribute('id', 'langbtn')
+    langbtn.setAttribute('class', 'langbtn')
     langbtn.onclick = changeLang;
     langbtn.innerHTML= message.chlang[detectLanguage()]
     const startbutton = document.createElement("button");
     startbutton.innerHTML = "Start";
     startbutton.style.fontSize = '5vmin'
     startbutton.onclick = function() {
-        startbutton.setAttribute('id', 'hidden');
-        langbtn.setAttribute('id', 'fadeaway')
+        startbutton.setAttribute('class', 'hidden');
+        langbtn.setAttribute('class', 'fadeaway')
         setTimeout(() =>{
             startbutton.remove()
             langbtn.remove()
@@ -34,9 +34,10 @@ export function initialize() {
 function changeLang() {
     const url = new URL(location.toString())
     const origin = url.origin
+    const path = url.pathname
     if (detectLanguage() === 'nl') {
-        location.href = origin + "?lang=en"
+        location.href = origin + path + "?lang=en"
     } else {
-        location.href = origin + "?lang=nl"
+        location.href = origin + path + "?lang=nl"
     }
 }
