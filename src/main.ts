@@ -1,4 +1,4 @@
-import { initialize } from './init'
+import { initialize } from './init/init'
 import './style.css'
 
 window.onload = function() {

@@ -22,6 +22,11 @@ body {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #header {
   grid-column: 1/2;
   grid-row: 1;
@@ -68,6 +73,23 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+#understood {
+  animation: pshow forwards 3s;
+}
+p {
+  animation: pshow forwards 2s;
+}
+
+@keyframes pshow {
+  0% {
+    margin-bottom: -200%;
+    opacity: 0;
+  }
+  100% {
+    margin-bottom: 0%;
+    opacity: 1;
+  }
+}
 
 h1 {
   animation: titlefall forwards 3s;
@@ -77,6 +99,7 @@ h1 {
   0% {
     margin-top: -50%;
     font-size: 20vh;
+    filter: drop-shadow(0 0 2em #999999);
   }
   50% {
     margin-top: 25%;
@@ -84,14 +107,14 @@ h1 {
   }
   100% {
     font-size: 8vh;
-    filter: drop-shadow(0 0 2em #999999);
+    filter: drop-shadow(0 0 0.1em #999999);
   }
 }
 
 .hidden {
-  animation: goaway forwards 2s;
+  animation: spinaway forwards 2s;
 }
-@keyframes goaway {
+@keyframes spinaway {
   0% {
       transform: scale(1);
       opacity: 5;
