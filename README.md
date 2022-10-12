@@ -1,4 +1,4 @@
-# SkillIssue.nl
+# SkillIssue
 ***I don't own the domain yet so this might change***
 
 ### What am I doing?
