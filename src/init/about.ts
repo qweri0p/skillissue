@@ -14,7 +14,7 @@ export function about() {
             continuebtn.remove()
             aboutText.remove()
             explanation()
-        }, 1000)
+        }, 2000);
     });
     setTimeout(() =>{
         content?.append(aboutText)
