@@ -18,8 +18,8 @@ export function initialize() {
     startbutton.innerHTML = "Start";
     startbutton.style.fontSize = '5vmin'
     startbutton.onclick = function() {
-        startbutton.setAttribute('class', 'hidden');
-        langbtn.setAttribute('class', 'fadeaway')
+        startbutton.setAttribute('id', 'hidden');
+        langbtn.setAttribute('id', 'fadeaway')
         setTimeout(() =>{
             startbutton.remove()
             langbtn.remove()
