@@ -9,16 +9,21 @@ export function about() {
     const continuebtn = document.createElement("button");
     continuebtn.innerHTML = message.accept[detectLanguage()];
     continuebtn.setAttribute('id', 'understood');
+    continuebtn.addEventListener('click', () =>{
+        tempdiv.setAttribute('class', 'hidden');
+        setTimeout(() =>{
+            explanation()
+        }, 1000)
+    });
     setTimeout(() =>{
         tempdiv.append(aboutText)
         setTimeout(() => {
             tempdiv.append(continuebtn);
-            setTimeout(() => {
-                tempdiv.setAttribute('class', 'hidden')
-                setTimeout(() => {
-                    tempdiv.remove()
-                }, 1000);
-            }, 10000);
         }, 1000)
     }, 3000);
+}
+
+function explanation() {
+    alert(message.ad[detectLanguage()]);
+    location.href = "https://i.redd.it/vljnc3cygex11.jpg"
 }

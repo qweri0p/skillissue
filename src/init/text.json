@@ -6,5 +6,13 @@
     "accept": {
         "en": "Continue",
         "nl": "Verder"
+    },
+    "ad": {
+        "en": "You're winner!",
+        "nl": "Jij is winnaar!"
+    },
+    "chlang": {
+        "en": "🇳🇱",
+        "nl": "🇬🇧"
     }
 }

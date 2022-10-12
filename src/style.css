@@ -43,7 +43,20 @@ a {
   grid-row: 3;
 }
 
+#langbtn {
 
+}
+.fadeaway {
+  animation: fadeaway forwards 0.25s;
+}
+@keyframes fadeaway {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 #app {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
