@@ -9,17 +9,17 @@ export function initialize() {
     innertitle.href = location.toString();
     innertitle.innerHTML = 'SkillIssue'
     title.append(innertitle);
-    title.setAttribute('class', 'header')
+    title.setAttribute('id', 'header')
     const langbtn = document.createElement('button')
-    langbtn.setAttribute('class', 'langbtn')
+    langbtn.setAttribute('id', 'langbtn')
     langbtn.onclick = changeLang;
     langbtn.innerHTML= message.chlang[detectLanguage()]
     const startbutton = document.createElement("button");
     startbutton.innerHTML = "Start";
     startbutton.style.fontSize = '5vmin'
     startbutton.onclick = function() {
-        startbutton.setAttribute('class', 'hidden');
-        langbtn.setAttribute('class', 'fadeaway')
+        startbutton.setAttribute('id', 'hidden');
+        langbtn.setAttribute('id', 'fadeaway')
         setTimeout(() =>{
             startbutton.remove()
             langbtn.remove()
