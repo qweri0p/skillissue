@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80.982574mm"
+   height="80.892937mm"
+   viewBox="0 0 80.982574 80.892937"
+   version="1.1"
+   id="svg5"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background"
+     style="fill:#1a1a1a"
+     transform="translate(-56.653001,-62.539171)">
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.264583"
+       id="rect761"
+       width="80.982773"
+       height="80.892929"
+       x="56.652809"
+       y="62.539173" />
+    <g
+       inkscape:label="Layer 1"
+       inkscape:groupmode="layer"
+       id="layer1"
+       transform="translate(-1.9323118,7.0571058)">
+      <text
+         xml:space="preserve"
+         style="font-size:19.7556px;white-space:pre;inline-size:90.8041;fill:#000000;stroke-width:0.264583"
+         x="31.475958"
+         y="73.941635"
+         id="text167"
+         transform="translate(33.689277,13.106054)"><tspan
+           x="31.475958"
+           y="73.941635"
+           id="tspan918"><tspan
+             style="font-family:'Font Awesome 6 Free';-inkscape-font-specification:'Font Awesome 6 Free';fill:#cccccc"
+             id="tspan916">Skill </tspan></tspan><tspan
+           x="31.475958"
+           y="100.4166"
+           id="tspan922"><tspan
+             style="font-family:'Font Awesome 6 Free';-inkscape-font-specification:'Font Awesome 6 Free';fill:#cccccc"
+             id="tspan920">Issue
+</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

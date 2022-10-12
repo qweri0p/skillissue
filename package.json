@@ -1,0 +1,18 @@
+{
+  "name": "skillissue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "tsc && vite build && gh-pages -d dist",
+    "upload": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
